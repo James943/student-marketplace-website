@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en"><!--default language of the document content -->
+	
+    <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!--character encoding for the document (Unicode) -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="CSS/normalize.css" rel="stylesheet">
+        <link href="CSS/stylesheet.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@800" rel="stylesheet">
+		<title>Student Marketplace Brighton</title><!--web page title -->
+		<script src="JS/index.js"></script>
+		<link rel="icon" href="Images/favicon.png">
+	</head>
+		
+	
+	
+<body>
+    
+    <div id="wrapper">
+
+    <h1>Student Marketplace Brighton</h1>
+    
+    <p id="welcomeP"></p>
+    
+<div class="topnav">
+  <a href="index.html">Home</a>
+  <a href="consoles.html">Consoles</a>
+  <a class="active">Laptops</a>
+  <a href="phones.html">Phones</a>
+  <a href="peripherals.html">Peripherals</a>
+  <a href="others.html">Other</a>
+  <div class="right">
+        <div class="loggedOut">
+            <a href="login.html">Sell an item</a>
+            <a href="login.html">Login/Signup</a>
+        </div>
+        <div class="loggedIn">
+            <a href="sell.html">Sell an item</a>
+            <a href="manage.html">Manage/unlist items</a>
+            <a href="logout.php">Logout</a>
+        </div>
+  </div>
+  <div class="search-container">
+      <form id="searchForm" action="javascript:searchAction()">
+          <input type="text" placeholder="Search the marketplace" id="searchBox" required>
+          <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+  </div>
+</div>
+
+<div id="items">
+    
+</div>
+
+       
+    </div>
+    
+</body>
